@@ -9,7 +9,7 @@
 [debug] == resolving dependencies for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f19a51b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29706552
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -18,7 +18,7 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2499f507
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f5d1480
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime]
@@ -26,7 +26,7 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master]
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6781f492
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e72c8b4
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -35,7 +35,7 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master]
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45a4487d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7727a1ae
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dc963a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26ec4a5c
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -158,7 +158,7 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)]
 [info] Resolving junit#junit;4.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c6e8d0a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7caaf61d
 [debug] sbt-chain: module revision found in cache: junit#junit;4.10
 [debug] 	found junit#junit;4.10 in sbt-chain
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime]
@@ -166,7 +166,7 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master]
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24af7d3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@359f7f0e
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1
 [debug] 	found org.hamcrest#hamcrest-core;1.1 in sbt-chain
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->runtime]
@@ -442,109 +442,25 @@
 [debug] == resolving dependencies progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang\scala-library\2.11.7\srcs\scala-library-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar(src) (360ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scalatest\scalatest_2.11\2.2.4\srcs\scalatest_2.11-sources.jar
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scalatest\scalatest_2.11\2.2.4\jars\scalatest_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(src) (414ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar (1430ms)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang\scala-reflect\2.11.2\srcs\scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(src) (243ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.2\srcs\scala-xml_2.11-sources.jar
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.2\jars\scala-xml_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src) (111ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar (291ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\srcs\scala-parser-combinators_2.11-sources.jar
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\jars\scala-parser-combinators_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src) (149ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar (209ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\junit\junit\4.10\srcs\junit-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
+[debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar
-[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar
-[info] downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10-sources.jar
-[info] 	[SUCCESSFUL ] junit#junit;4.10!junit.jar(src) (132ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.hamcrest\hamcrest-core\1.1\srcs\hamcrest-core-sources.jar
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src) (76ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\srcs\scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src) (556ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\srcs\scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src) (180ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\srcs\scala-xml_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src) (93ms)
-[debug] 		tried C:\Users\Lodewijk Pool\.ivy2\local\jline\jline\2.12.1\srcs\jline-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(src) (98ms)
-[debug] :: resolution report :: resolve 91ms :: artifacts dl 4376ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] :: resolution report :: resolve 223ms :: artifacts dl 20ms
 [debug] 	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT compile produced in C:\Dev\Workspaces\coursera-progfun\example\target\resolution-cache\reports\progfun1-example-progfun1-example$sources_2.11-compile.xml
 [debug] 	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT runtime produced in C:\Dev\Workspaces\coursera-progfun\example\target\resolution-cache\reports\progfun1-example-progfun1-example$sources_2.11-runtime.xml
 [debug] 	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT test produced in C:\Dev\Workspaces\coursera-progfun\example\target\resolution-cache\reports\progfun1-example-progfun1-example$sources_2.11-test.xml
@@ -558,4 +474,4 @@
 [debug] 	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT docs produced in C:\Dev\Workspaces\coursera-progfun\example\target\resolution-cache\reports\progfun1-example-progfun1-example$sources_2.11-docs.xml
 [debug] 	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT pom produced in C:\Dev\Workspaces\coursera-progfun\example\target\resolution-cache\reports\progfun1-example-progfun1-example$sources_2.11-pom.xml
 [debug] 	report for progfun1-example#progfun1-example$sources_2.11;0.1-SNAPSHOT scala-tool produced in C:\Dev\Workspaces\coursera-progfun\example\target\resolution-cache\reports\progfun1-example-progfun1-example$sources_2.11-scala-tool.xml
-[debug] 	resolve done (91ms resolve - 4376ms download)
+[debug] 	resolve done (223ms resolve - 20ms download)
