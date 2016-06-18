@@ -253,6 +253,7 @@ class FunSetSuite extends FunSuite {
 
   test("map") {
     new TestSets {
+
       assert(exists(squares, x => x == 1), "The integer 1 exists in the set of squares")
       assert(exists(squares, x => x == 4), "The integer 4 exists in the set of squares")
       assert(exists(squares, x => x == 9), "The integer 9 exists in the set of squares")
