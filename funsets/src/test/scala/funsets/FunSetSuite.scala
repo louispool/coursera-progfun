@@ -226,11 +226,11 @@ class FunSetSuite extends FunSuite {
       assert(!exists(evens, x => x == 909), "The integer 909 does not exist in the set of evens")
 
       assert(!exists(odds, x => x == 2), "The integer 2 does not exist in the set of odds")
-      assert(!exists(odds, x => x == 4), "The integer 4 does not existin the set of odds")
+      assert(!exists(odds, x => x == 4), "The integer 4 does not exist in the set of odds")
       assert(!exists(odds, x => x == 280), "The integer 280 does not exist in the set of odds")
 
       assert(exists(odds, x => x == 3), "The integer 3 exists in the set of odds")
-      assert(exists(odds, x => x == 5), "The integer 4 exists in the set of odds")
+      assert(exists(odds, x => x == 5), "The integer 5 exists in the set of odds")
       assert(exists(odds, x => x == 909), "The integer 909 exists in the set of odds")
     }
   }
