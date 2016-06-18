@@ -97,6 +97,8 @@ class FunSetSuite extends FunSuite {
 
     val evens = filter(x => -1000 < x && x < 1000, p => p % 2 == 0)
     val odds = filter(x => -1000 < x && x < 1000, p => p % 2 != 0)
+
+    val squares = map(su1234, x => x*x)
   }
 
   /**
@@ -146,6 +148,8 @@ class FunSetSuite extends FunSuite {
       assert(contains(su1234, 2), "Union 2")
       assert(contains(su1234, 3), "Union 3")
       assert(contains(su1234, 4), "Union 4")
+
+
     }
   }
 
@@ -244,6 +248,18 @@ class FunSetSuite extends FunSuite {
 
       assert(empty(sdEmpty), "sd is Empty")
       assert(empty(siEmpty), "si is Empty")
+    }
+  }
+
+  test("map") {
+    new TestSets {
+      assert(exists(squares, x => x == 1), "The integer 1 exists in the set of squares")
+      assert(exists(squares, x => x == 4), "The integer 4 exists in the set of squares")
+      assert(exists(squares, x => x == 9), "The integer 9 exists in the set of squares")
+      assert(exists(squares, x => x == 16), "The integer 16 exists in the set of squares")
+
+      assert(!exists(squares, x => x == 2), "The integer 2 does not exist in the set of squares")
+      assert(!exists(squares, x => x == 3), "The integer 3 does not exist in the set of squares")
     }
   }
 }
