@@ -260,6 +260,7 @@ class FunSetSuite extends FunSuite {
 
       assert(!exists(squares, x => x == 2), "The integer 2 does not exist in the set of squares")
       assert(!exists(squares, x => x == 3), "The integer 3 does not exist in the set of squares")
+      assert(!exists(squares, x => x == 32), "The integer 32 does not exist in the set of squares")
     }
   }
 }
