@@ -1,5 +1,7 @@
 package example
 
+import java.util.NoSuchElementException
+
 
 object Lists {
 
@@ -42,7 +44,7 @@ object Lists {
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
   def max(xs: List[Int]): Int = {
-    if (xs.isEmpty) 0
+    if (xs.isEmpty) throw new NoSuchElementException
     else if (xs.head > max(xs.tail)) xs.head
     else max(xs.tail)
   }
