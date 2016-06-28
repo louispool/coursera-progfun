@@ -2,11 +2,12 @@ package week4
 
 import java.util.NoSuchElementException
 
-trait List[T] {
+trait List[+T] {
   def isEmpty: Boolean
   def head: T
   def tail: List[T]
   def reverse: List[T]
+  def prepend[U >:T](elem: U): List[U] = new Cons(elem, this)
 }
 
 class Cons[T] (val head: T, val tail: List[T]) extends List[T] {
@@ -17,11 +18,11 @@ class Cons[T] (val head: T, val tail: List[T]) extends List[T] {
       if (in.isEmpty) out
       else loop(in.tail, new Cons(in.head, out))
     }
-    loop(this, new Nil)
+    loop(this, Nil)
   }
 }
 
-class Nil[T] extends List[T] {
+object Nil extends List[Nothing] {
   def isEmpty = true
   def head: Nothing = throw new NoSuchElementException("Nil.head")
   def tail: Nothing = throw new NoSuchElementException("Nil.tail")
@@ -30,10 +31,10 @@ class Nil[T] extends List[T] {
 
 object List {
   //List(1, 2) = list.apply(1, 2)
-  def apply[T](x1: T, x2: T): List[T] = new Cons[T](x1, new Cons[T](x2, new Nil))
+  def apply[T](x1: T, x2: T): List[T] = new Cons[T](x1, new Cons[T](x2, Nil))
   //List(1) = list.apply(1)
-  def apply[T](x1: T): List[T] = new Cons[T](x1, new Nil)
+  def apply[T](x1: T): List[T] = new Cons[T](x1, Nil)
   //List() = list.apply()
-  def apply[T]() = new Nil
+  def apply[T]() = Nil
 }
 
