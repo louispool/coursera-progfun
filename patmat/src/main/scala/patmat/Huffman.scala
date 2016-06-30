@@ -24,6 +24,7 @@ object Huffman {
   
 
   // Part 1: Basics
+
   def weight(tree: CodeTree): Int = tree match {
     case Fork(left: CodeTree, right: CodeTree, chars: List[Char], w: Int) => weight(left) + weight(right)
     case Leaf(char: Char, w: Int) => w
@@ -150,9 +151,7 @@ object Huffman {
    */
   def until(isSingle: List[CodeTree] => Boolean, combineTrees: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): List[CodeTree] = {
     if (isSingle(trees)) trees
-    else {
-      until(isSingle, combineTrees)(combineTrees(trees))
-    }
+    else until(isSingle, combineTrees)(combineTrees(trees))
   }
 
   /**
