@@ -223,7 +223,7 @@ object Huffman {
   def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
 
     def traverse(branch: CodeTree, ch: Char, bits: List[Bit]): List[Bit] = branch match {
-      case Leaf(lch: Char, _) => if (lch == ch) bits else List()
+      case Leaf(lch: Char, _) => if (lch == ch) bits else Nil
       case Fork(left: CodeTree, right: CodeTree, _, _) => traverse(left, ch, bits ::: List(0)) ::: traverse(right, ch, bits ::: List(1))
     }
 
@@ -256,14 +256,38 @@ object Huffman {
    * a valid code tree that can be represented as a code table. Using the code tables of the
    * sub-trees, think of how to build the code table for the entire tree.
    */
-  def convert(tree: CodeTree): CodeTable = ???
+  def convert(tree: CodeTree): CodeTable = {
+
+    def convertBranch(branch: CodeTree, bit: Bit): CodeTable = branch match {
+      case Leaf(ch: Char, _) => List((ch, List(bit)))
+      case Fork(_, _, chars: List[Char], _) => chars.map(x => (x, List(bit)))
+    }
+
+    def convertSubTree(subtree: CodeTree): CodeTable = subtree match {
+      case Fork(left: CodeTree, right: CodeTree, _, _) => convertBranch(left, 0) ::: convertBranch(right, 1)
+      case _ => Nil
+    }
+
+    def traverse(branch: CodeTree): CodeTable = branch match {
+      case Fork(left: CodeTree, right: CodeTree, _, _) => mergeCodeTables(mergeCodeTables(convertSubTree(branch), traverse(left)), traverse(right))
+      case _ => Nil
+    }
+
+    traverse(tree)
+  }
   
   /**
    * This function takes two code tables and merges them into one. Depending on how you
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
    */
-  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
+  def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = {
+    if (a.isEmpty) b
+    else if (b.isEmpty) a
+    else a.filterNot(x => b.exists(y => x._1 == y._1)) ::: //Elements in a not in b
+         b.filterNot(y => a.exists(x => y._1 == x._1)) ::: //Elements in b not in a
+         a.filter(x => b.exists(y => x._1 == y._1)).map(x => (x._1, x._2 ::: b.filter(y => y._1 == x._1).flatMap(y => y._2))) //Elements in both a in b, a takes precedence of bit operator
+  }
   
   /**
    * This function encodes `text` according to the code tree `tree`.
@@ -271,6 +295,13 @@ object Huffman {
    * To speed up the encoding process, it first converts the code tree to a code table
    * and then uses it to perform the actual encoding.
    */
-  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def quickEncode(tree: CodeTree)(text: List[Char]): List[Bit] = {
 
+    val table = convert(tree)
+    def loop(chars: List[Char], bits: List[Bit]): List[Bit] = chars match {
+      case Nil => bits
+      case x :: xs => loop(xs, bits ::: codeBits(table)(x))
+    }
+    loop(text, List())
+  }
 }

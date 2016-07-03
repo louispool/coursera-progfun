@@ -41,6 +41,29 @@ encode(t1)("abca".toList)
 
 decode(t1, encode(t1)("abca".toList))
 
+convert(t1)
+
+val t2 = Fork(Leaf('a', 1), Leaf('b', 1), List('a', 'b'), 2)
+
+convert(t2)
+
+
+val t3 = Fork(Fork(Leaf('a', 1), Leaf('b', 1), List('a', 'b'), 2), Fork(Leaf('c', 1), Leaf('d', 1), List('c', 'd'), 2), List('a', 'b', 'c', 'd'), 4)
+
+convert(t3)
+quickEncode(t3)("ab".toList)
+quickEncode(t3)("abcd".toList)
+
+
+
+val t4 = Fork(Leaf('a', 2), Leaf('b', 3), List('a', 'b'), 5)
+
+convert(t4)
+encode(t4)("ab".toList)
+quickEncode(t4)("ab".toList)
+
+
+
 
 
 
