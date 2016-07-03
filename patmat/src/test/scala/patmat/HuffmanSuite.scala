@@ -71,5 +71,4 @@ class HuffmanSuite extends FunSuite {
       assert(decode(t3, quickEncode(t3)("abcd".toList)) === "abcd".toList)
     }
   }
-
 }
