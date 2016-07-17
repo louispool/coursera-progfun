@@ -158,7 +158,6 @@ object Anagrams {
         combo <- combinations(occurrences)
         word <- dictionaryByOccurrences(combo)
         rest <- loop(subtract(occurrences, combo))
-        if combo.nonEmpty
       } yield word :: rest
     }
 
