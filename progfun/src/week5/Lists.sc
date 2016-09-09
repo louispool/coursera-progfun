@@ -143,6 +143,8 @@ def productFold(xs: List[Int]) = (xs foldLeft 1) (_ * _) // ((x, y) => x*y)
   * List(x1, ..., xn) reduceLeft op    = (...(x1 op x2) op x3) op ...) op xn
   * List(x1, ..., xn).foldLeft(z)(op)  = (...( z op x1) op x2) op ...) op xn
   *
+  * i.e. List(a,b,c).foldLeft(e)(f) = f(f(f(e, a), b), c)
+  *
   * Reduce left (left leaning tree):
   *
   *           op
@@ -171,6 +173,8 @@ def productFold(xs: List[Int]) = (xs foldLeft 1) (_ * _) // ((x, y) => x*y)
 /**
   * List(x1, ..., xn) reduceRight op   = x1 op (... (x{n-1} op xn) ...)
   * List(x1, ..., xn).foldRight(z)(op) = x1 op (... (    xn op  z) ...)
+  *
+  * i.e. List(a,b,c).foldRight(e)(f) = f(a, f(b, f(c, e)))
   *
   * Reduce right (right leaning tree):
   *
