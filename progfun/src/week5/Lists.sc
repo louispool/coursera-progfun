@@ -207,5 +207,15 @@ def concatFoldRight[T](xs: List[T], ys: List[T]): List[T] = (xs foldRight ys)(_ 
 
 //def concatFoldLeft[T](xs: List[T], ys: List[T]): List[T] = (xs foldLeft ys) (_ :: _)
 
+//Operations on collections are key to functional programming
+//map: apply function to each element
+List (1, 3, 8).map(x => x * x) == List(1, 9, 64)
+
+//fold: combine elements with a given operation
+List (1, 3, 8).fold(100)((s, x) => s + x) == 112
+
+//scan: combine folds of all list prefixes
+List ( 1, 3, 8).scan(100)((s, x) => s + x) == List(100, 101, 104, 112)
+
 
 
